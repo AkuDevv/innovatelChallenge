@@ -706,6 +706,23 @@ h1, h2, h3, h4, h5, h6 {
   color: #112363;
   font-size: 15px;
   margin-bottom: 10px;
+  font-style: italic;
+}
+#speakers-details .details h4 {
+  color: #4e4f52;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+#speakers-details .details ul li {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+#speakers-details .details h5 {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
 }
 
 /*--------------------------------------------------------------
