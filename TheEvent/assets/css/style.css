@@ -815,7 +815,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   margin-bottom: 5px;
 }
-#schedule .schedule-item h4 span {
+#schedule .schedule-item span {
   font-style: italic;
   color: #19328e;
   font-weight: normal;
@@ -824,6 +824,11 @@ h1, h2, h3, h4, h5, h6 {
 #schedule .schedule-item p {
   font-style: italic;
   color: #152b79;
+  margin-bottom: 0;
+}
+#schedule .schedule-item ul li {
+  font-style: italic;
+  color: #38383a;
   margin-bottom: 0;
 }
 
@@ -842,12 +847,13 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 300px;
 }
 #venue .venue-info {
-  background: url("../img/venue-info-bg.jpg") top center no-repeat;
+  background: url("../img/subscribe-bg.jpg") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 #venue .venue-info:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
@@ -868,6 +874,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #venue .venue-info p {
+  color: #fff;
+  margin-bottom: 0;
+}
+#venue .venue-info ul li{
   color: #fff;
   margin-bottom: 0;
 }
