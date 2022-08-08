@@ -341,7 +341,7 @@ h6 {
 
 #hero {
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   background-color: rgba(63, 73, 83, 0.8);
   overflow: hidden;
   position: relative;
@@ -664,27 +664,27 @@ body {
 }
 
 .main-timeline4 .timeline:nth-child(3n) .timeline-icon {
-  border-color: #e90000
+  border-color: #f59c8b
 }
 
 .main-timeline4 .timeline:nth-child(3n) .year {
-  background: #e90000
+  background: #f59c8b
 }
 
 .main-timeline4 .timeline:nth-child(3n) .year:before {
-  border-top-color: #e90000
+  border-top-color: #f59c8b
 }
 
 .main-timeline4 .timeline:nth-child(4n) .timeline-icon {
-  border-color: #e90000
+  border-color: #f59c8b
 }
 
 .main-timeline4 .timeline:nth-child(4n) .year {
-  background: #e90000
+  background: #f59c8b
 }
 
 .main-timeline4 .timeline:nth-child(4n) .year:before {
-  border-top-color: #e90000
+  border-top-color: #f59c8b
 }
 
 @media only screen and (max-width:767px) {
@@ -2431,3 +2431,28 @@ section {
   background: #e0072f;
 }
 
+#supporters {
+  padding: 60px 0;
+}
+#supporters .supporters-wrap {
+  border-top: 1px solid #e0e5fa;
+  border-left: 1px solid #e0e5fa;
+  margin-bottom: 30px;
+}
+#supporters .supporter-logo {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5);
+  height: 160px;
+}
+#supporters .supporter-logo:hover img {
+  transform: scale(1.2);
+}
+#supporters img {
+  transition: all 0.4s ease-in-out;
+}
