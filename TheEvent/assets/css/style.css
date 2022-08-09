@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/ville.png) bottom center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -429,14 +429,14 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   bottom: 0;
   left: 0;
-  top: 90px;
+  top: 30px;
   right: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px;
+  padding: 0 0px;
 }
 @media (max-width: 991px) {
   #hero .hero-container {
@@ -604,6 +604,7 @@ h1, h2, h3, h4, h5, h6 {
 #about h2 {
   font-size: 36px;
   font-weight: bold;
+  text-transform: uppercase;
   margin-bottom: 10px;
   color: #fff;
 }
@@ -618,6 +619,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
+  line-break:anywhere;
+}
+#about ul li {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+  line-break:anywhere;
 }
 
 /*--------------------------------------------------------------
@@ -1351,6 +1359,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
+  line-break: anywhere;
   font-family: "Raleway", sans-serif;
   color: #fff;
 }

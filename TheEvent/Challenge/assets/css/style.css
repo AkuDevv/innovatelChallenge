@@ -533,7 +533,8 @@ body {
 
 .main-timeline4 {
   overflow: hidden;
-  position: relative
+  position: relative;
+  width: 80%;
 }
 
 .main-timeline4:after,
@@ -1298,6 +1299,7 @@ section {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 20px;
+  hyphens: auto;
   color: #556270;
 }
 
@@ -2342,6 +2344,7 @@ section {
 #footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
+  hyphens: auto;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -2448,7 +2451,7 @@ section {
   border-bottom: 1px solid #e0e5fa;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.5);
-  height: 160px;
+  /*height: 160px;*/
 }
 #supporters .supporter-logo:hover img {
   transform: scale(1.2);
