@@ -119,11 +119,12 @@
                             </div>
 
                             <div class="mb-3 col-lg-6 col-md-12">
-                                <label for='formule' class='form-label'>Type Forumule :</label><br>
-                                <input type='radio' name='formule' value='1' id='formule' required> <label for='virement' class='form-label'>Partenaire/Sponsor Officiel</label><br>
+                                <label for='formule' class='form-label'>Type de Sponsor :</label><br>
+                                <input type='radio' name='formule' value='1' id='formule' required> <label for='virement' class='form-label'>Sponsor Officiel</label><br>
                                 <input type='radio' name='formule' value='2' id='formule' required> <label for='especes' class='form-label'>Platinum</label><br>
                                 <input type='radio' name='formule' value='3' id='formule' required> <label for='cheques' class='form-label'>Gold</label><br>
-                                <input type='radio' name='formule' value='4' id='formule' required> <label for='cheques' class='form-label'>Silver</label>
+                                <input type='radio' name='formule' value='4' id='formule' required> <label for='cheques' class='form-label'>Silver</label><br>
+                                <input type='radio' name='formule' value='5' id='formule' required> <label for='cheques' class='form-label'>Partenaire (Institutionel - Média - Presse - Techonologique)</label>
                             </div>
 
                             <div class="mb-3 col-lg-12 col-md-12">
@@ -162,6 +163,7 @@
                 else if($form_id == 2) {$nom_formule = "Platinum";}
                 else if($form_id == 3) {$nom_formule = "Gold";}
                 else if($form_id == 4) {$nom_formule = "Silver";}
+                else if($form_id == 5) {$nom_formule = "Partenaire (Institutionel - Média - Presse - Techonologique)";}
 
                 $sql = "INSERT INTO candidat_sponsor (nom_complet, tel,email, entreprise, messagee, id_formule, nom_formule) 
                     VALUES ('$nom', '$tel', '$email', '$entreprise','$messagee', '$form_id','$nom_formule')";

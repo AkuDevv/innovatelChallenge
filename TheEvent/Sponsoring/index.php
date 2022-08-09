@@ -120,7 +120,7 @@ if ($connection == false) {
 
 				<div class="section-title">
 					<h2>A Propos</h2>
-					<p>Des informations sur la formule</p>
+					<p>Informations sur Votre Visibilité</p>
 				</div>
 
 				<div class="row">

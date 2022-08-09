@@ -88,6 +88,7 @@ h6 {
   padding: 0;
   line-height: 1;
   font-weight: 700;
+  padding-right: 20px;
   text-transform: uppercase;
 }
 
@@ -873,6 +874,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  font-size: 10px;
 }
 
 /*--------------------------------------------------------------
@@ -1305,6 +1307,15 @@ section {
 
 .features .details p {
   color: #777777;
+  font-size: 20px;
+  hyphens: auto;
+}
+
+.features .details ul li {
+  color: #09113d;
+  font-size: 20px;
+  hyphens: auto;
+  font-style: italic;
 }
 
 .features .details p:last-child {

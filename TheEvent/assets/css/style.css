@@ -619,13 +619,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
-  line-break:anywhere;
+  hyphens: auto;
 }
 #about ul li {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
-  line-break:anywhere;
+  hyphens: auto;
 }
 
 /*--------------------------------------------------------------
@@ -1359,7 +1359,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  line-break: anywhere;
+  hyphens: auto;
   font-family: "Raleway", sans-serif;
   color: #fff;
 }
