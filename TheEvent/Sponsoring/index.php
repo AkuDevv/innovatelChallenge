@@ -73,9 +73,9 @@ if ($connection == false) {
 
 			<nav id="navbar" class="navbar">
 				<ul>
-					<li><a href="index.html" class="active">Accueil</a></li>
-					<li><a href="#prix">Informations</a></li>
-					<li><a href="#about" class="getstarted">Devenir Sponsor</a></li>
+					<li><a href="../index.html" class="active">Accueil</a></li>
+					<li><a href="#features">Informations</a></li>
+					<li><a href="sponsor.php" class="getstarted">Devenir Sponsor</a></li>
 				</ul>
 				<i class="bi bi-list mobile-nav-toggle"></i>
 			</nav><!-- .navbar -->
@@ -100,7 +100,7 @@ if ($connection == false) {
 						<div class="container">
 							<h2 class="animate__animated animate__fadeInDown">FORMULE SPONSORING :<span style="color: <?php echo $color; ?>"> <?php echo $nom_formule; ?></span></h2>
 							<p class="animate__animated animate__fadeInUp">Vous trouvez ici les informations concernant cette formule</p>
-							<a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">
+							<a href="sponsor.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">
 								Devenir Sponsor
 							</a>
 						</div>

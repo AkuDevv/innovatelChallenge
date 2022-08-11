@@ -804,6 +804,7 @@ h1, h2, h3, h4, h5, h6 {
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
+  color: #f88222;
 }
 #schedule .schedule-item .speaker {
   width: 60px;
@@ -813,6 +814,7 @@ h1, h2, h3, h4, h5, h6 {
   float: left;
   margin: 0 10px 10px 0;
 }
+
 #schedule .schedule-item .speaker img {
   height: 100%;
   transform: translateX(-50%);
@@ -826,7 +828,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #schedule .schedule-item span {
   font-style: italic;
-  color: #19328e;
+  color: #f88222;
   font-weight: normal;
   font-size: 16px;
 }
@@ -1003,7 +1005,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
 }
 #supporters .supporter-logo {
-  padding: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1013,6 +1016,23 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.5);
   height: 160px;
 }
+
+#supporters .supporter-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid #e0e5fa;
+  border-bottom: 1px solid #e0e5fa;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5);
+  height: 80px;
+}
+
+#supporters .supporter-title h3 {
+  font-weight:bold;
+  text-align: center;
+}
+
 #supporters .supporter-logo:hover img {
   transform: scale(1.2);
 }

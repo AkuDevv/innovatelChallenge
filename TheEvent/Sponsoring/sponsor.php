@@ -46,8 +46,7 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a href="index.html" class="active">Accueil</a></li>
-                    <li><a href="#prix">Informations</a></li>
+                    <li><a href="../index.html" class="active">Accueil</a></li>
                     <li><a href="#about" class="getstarted">Devenir Sponsor</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
