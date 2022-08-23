@@ -29,7 +29,7 @@ if (isset($_POST["submit"])) {
     );
 
     $pfp = $uploads . "/" . $image_file['name'];
-    $files = $uploads . "/" . $files_file['name'];
+    $files = $uploads_files . "/" . $files_file['name'];
 
     $insert = $conn->prepare("INSERT INTO candidats (nom, prenom, datenaissance, telephone, email, pays, ville, niveau, specialite, job, diplome, certifications, participation, prix, langues, technologies, canal, association, participer, motivations, titre, objectifs, abr, domaine, avantages, impactsocial, avancement, deploye, projet, impact, solution, resultats, attends, pfp, files) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
 
@@ -70,4 +70,5 @@ if (isset($_POST["submit"])) {
         $pfp,
         $files
     ));
+    echo '<h1>Votre insription a été enregistrée avec succès!</h1>';
 }
